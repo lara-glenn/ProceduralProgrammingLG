@@ -10,7 +10,7 @@ int main(){
     int n;
     int square;
 
-    char *filename = "squares.dat";r
+    char *filename = "squares.dat";
     FILE *file = fopen(filename, "w");
 
 

@@ -25,6 +25,8 @@ int main() {
 //if it gets to null it is at the end of the file 
 //fgets reads in a line 
     while (fgets(line_buffer, buffer_size, file) != NULL) {
+        //printf("%s\n", line_buffer);
+
         printf("%d\n", atoi(line_buffer));
         //stores into an array
         numbers[num_lines] = atoi(line_buffer);
